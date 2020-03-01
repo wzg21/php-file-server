@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('ls -lart /lost+found');
+$output = shell_exec('ls -R /');
 echo $output;
 ?>
